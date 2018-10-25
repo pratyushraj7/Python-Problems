@@ -13,4 +13,4 @@ def gen_fib():
             fib.append(fib[i] + fib[i-1])
             i += 1
 
-return fib
+return fibbo
