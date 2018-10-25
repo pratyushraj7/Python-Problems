@@ -3,6 +3,6 @@
 num = input("Enter a number: ")
 mod = num % 2
 if mod > 0:
-    print("You picked an odd number.")
+    print("This Is An Odd No odd number.")
 else:
-    print("You picked an even number.")
+    print("This Is an even number.")
