@@ -1,15 +1,16 @@
+def gen_fib():
+    count = int(input("How many fibonacci numbers would you like to generate? "))
+    i = 1
+    if count == 0:
+        fib = []
+    elif count == 1:
+        fib = [1]
+    elif count == 2:
+        fib = [1,1]
+    elif count > 2:
+        fib = [1,1]
+        while i < (count - 1):
+            fib.append(fib[i] + fib[i-1])
+            i += 1
 
-
-__author__ = 'jeffreyhunt'
-
-num = int(input("Please choose a number to divide: "))
-
-listRange = list(range(1,num+1))
-
-divisorList = []
-
-for number in listRange:
-    if num % number == 0:
-        divisorList.append(number)
-
-print(divisorList)
+return fib
