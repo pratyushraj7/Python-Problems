@@ -1,5 +1,5 @@
 def gen_fib():
-    count = int(input("How many fibonacci numbers would you like to generate? "))
+    count = int(input())
     i = 1
     if count == 0:
         fib = []
